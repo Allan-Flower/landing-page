@@ -125,13 +125,51 @@ button{
 
 .quote-section{
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 120px 0 100px;
+}
+
+.quote{
+    max-width: 830px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.quote-text{
+    font-size: 36px;
+    color: #1F2937;
+    font-style: italic;
+    margin: 0;
+}
+
+.author{
+    margin: 0;
+    align-self: flex-end;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 45px;
 }
 
 .call-to-action{
-    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-background{
+    background-color: #3882F6;
 }
 
 .footer{
     background-color: #1F2937;
+}
+
+#bottom{
+    border: 2px solid white;
 }
 
